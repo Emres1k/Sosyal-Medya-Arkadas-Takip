@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Hesap_Bilgileri_Controller">
+   <children>
+      <Label layoutX="83.0" layoutY="54.0" prefHeight="38.0" prefWidth="94.0" text="İsim:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="122.0" prefHeight="38.0" prefWidth="94.0" text="Soy isim:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="189.0" prefHeight="38.0" prefWidth="120.0" text="Kullanıcu Adı:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="255.0" prefHeight="38.0" prefWidth="94.0" text="Şifre:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="isim_textField" disable="true" layoutX="239.0" layoutY="54.0" prefHeight="38.0" prefWidth="150.0" />
+      <TextField fx:id="soyisim_textField" disable="true" layoutX="239.0" layoutY="122.0" prefHeight="38.0" prefWidth="150.0" />
+      <TextField fx:id="kullanici_adi_textField" disable="true" layoutX="239.0" layoutY="189.0" prefHeight="38.0" prefWidth="150.0" />
+      <TextField fx:id="sifre_textField" disable="true" layoutX="239.0" layoutY="255.0" prefHeight="38.0" prefWidth="150.0" />
+      <Button layoutX="462.0" layoutY="54.0" mnemonicParsing="false" onAction="#isim_degistir_buton" prefHeight="38.0" prefWidth="65.0" text="Güncelle" />
+      <Button layoutX="462.0" layoutY="122.0" mnemonicParsing="false" onAction="#soyisim_degistir_buton" prefHeight="38.0" prefWidth="65.0" text="Güncelle" />
+      <Button layoutX="462.0" layoutY="189.0" mnemonicParsing="false" onAction="#kullanici_adi_degistir_buton" prefHeight="38.0" prefWidth="65.0" text="Güncelle" />
+      <Button layoutX="462.0" layoutY="255.0" mnemonicParsing="false" onAction="#sifre_degistir_buton" prefHeight="38.0" prefWidth="65.0" text="Güncelle" />
+      <Button layoutX="96.0" layoutY="343.0" mnemonicParsing="false" onAction="#onayla_buton" prefHeight="26.0" prefWidth="412.0" text="Onayla" />
+   </children>
+</AnchorPane>

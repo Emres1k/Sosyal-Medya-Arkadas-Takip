@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Takip_Cikar_Controller">
+   <children>
+      <Label fx:id="takipci_cikar_label" layoutX="131.0" layoutY="32.0" text="Hangi kullanıcıyı takip etmek istemiyorsunuz?">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="248.0" layoutY="341.0" mnemonicParsing="false" onAction="#takip_cikar" prefHeight="32.0" prefWidth="106.0" text="Takipçi Çıkar" />
+      <ListView fx:id="takip_cikar_ListView" layoutX="184.0" layoutY="82.0" prefHeight="236.0" prefWidth="233.0" />
+   </children>
+</AnchorPane>
